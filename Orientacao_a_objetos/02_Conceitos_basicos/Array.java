@@ -18,13 +18,13 @@ public class Array {
 		System.out.println("Capacidade do Tanque: " + carros[i].getcapacidadeTanque());
 		System.out.println("Kilometragem por Litro: " + carros[i].getkmPorLitro());
 		System.out.println("Rodagem do Veiculo: " + carros[i].calcularkm());
-		System.out.println("Pre�o: " + carros[i].getpreco());
+		System.out.println("Preco: " + carros[i].getpreco());
 		System.out.println("Desconto: " + carros[i].calcularDesconto(2.5,2));
 		System.out.println("Valor do Carro: " + carros[i].getvalorComDesconto());
 		System.out.println();		
 		}
 		
 		System.out.println("Quantidade de Carros: " + Carro.getTotalCarros());
-		System.out.println("Pre�o Total (Valor Bruto): " + Carro.getPrecoTotal());
+		System.out.println("Preco Total (Valor Bruto): " + Carro.getPrecoTotal());
 	}		
 }
